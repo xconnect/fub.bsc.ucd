@@ -1,0 +1,3 @@
+Motivation
+Das Ziel dieses Projektes ist die Entwicklung eines Learn Management Systems (LMS) für die Freie Universität Berlin. Es soll eine Software geschaffen werden, die den Alltag an der Universität erleichtert und die elementaren Arbeitsprozesse von Lehrenden, Studenten, wissenschaftlichen Mitarbeitern und Verwaltungsangestellten optimiert und vereinfacht. Da die derzeit verwendeten Systeme den Bedürfnissen der Nutzer nicht gerecht werden, entstand der Wunsch nach einem zentralen System, welches  sich möglichst einfach bedienen lässt und alle für die Benutzer benötigten Funktionalitäten an einer Stelle vereint. 
+

@@ -1,0 +1,28 @@
+\contentsline {section}{\numberline {1}Zusammenfassung}{3}
+\contentsline {section}{\numberline {2}Einleitung}{4}
+\contentsline {subsection}{\numberline {2.1}Motivation / Projekthintergrund}{4}
+\contentsline {subsection}{\numberline {2.2}Struktur dieses Dokuments}{4}
+\contentsline {section}{\numberline {3}Projektablauf}{5}
+\contentsline {section}{\numberline {4}Goals / Ziele}{6}
+\contentsline {subsection}{\numberline {4.1}Interviews}{6}
+\contentsline {subsection}{\numberline {4.2}Konzipierung}{7}
+\contentsline {subsection}{\numberline {4.3}Durchf\IeC {\"u}hrung}{8}
+\contentsline {subsection}{\numberline {4.4}Ergebnisse}{8}
+\contentsline {subsection}{\numberline {4.5}Fazit}{12}
+\contentsline {section}{\numberline {5}Scope / Umfang}{13}
+\contentsline {subsection}{\numberline {5.1}Benutzergruppe}{13}
+\contentsline {subsection}{\numberline {5.2}Persona}{14}
+\contentsline {subsection}{\numberline {5.3}Szenario}{15}
+\contentsline {section}{\numberline {6}Structure / Struktur}{16}
+\contentsline {subsection}{\numberline {6.1}Prim\IeC {\"a}rsubstantive}{16}
+\contentsline {subsection}{\numberline {6.2}Flowchart \& Storyboard}{16}
+\contentsline {section}{\numberline {7}Skeleton / Skelett}{17}
+\contentsline {subsection}{\numberline {7.1}Paperprototype}{17}
+\contentsline {subsection}{\numberline {7.2}Testszenario}{20}
+\contentsline {subsubsection}{\numberline {7.2.1}Testplan}{20}
+\contentsline {subsubsection}{\numberline {7.2.2}Moderatorskript}{21}
+\contentsline {section}{\numberline {8}Surface / Oberfl\IeC {\"a}che}{22}
+\contentsline {subsection}{\numberline {8.1}Heuristische Evaluation}{22}
+\contentsline {subsection}{\numberline {8.2}Ergebnisse der heuristischen Evaluation}{24}
+\contentsline {subsection}{\numberline {8.3}High fidelity prototype}{24}
+\contentsline {section}{\numberline {9}Anhang}{26}

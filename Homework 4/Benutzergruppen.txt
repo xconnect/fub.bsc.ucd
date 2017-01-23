@@ -1,0 +1,13 @@
+Wir haben folgende benutzergruppen identifiziert:
+* Studenten
+	- BA (18-25 Jahre)
+	_ MA (25-35 Jahre)
+* Lehrende (30 - 70 Jahre)
+* WIMIS/ Tutoranden (20-35)
+* Verwaltungsmitarbeiter( 25-65 Jahre)
+
+Aus Gründen der Durchführbarkeit beschränken wir uns innerhalb dieses Projektes auf die Gruppe
+der Studierenden, insbesondere auf die Bachelor-Studierenden. Diese Gruppen besteht zu 20% aus 
+weiblichen und 80% aus männlichen Personen.
+
+

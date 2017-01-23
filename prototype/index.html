@@ -1,0 +1,248 @@
+<!-- <!DOCTYPE html> -->
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> URsula @ Modulauswahl</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-3.3.4-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+</head>
+
+<body>
+
+		<div id="header">
+			<h2>URsula</h2>
+			<div id="logged-user">
+				<img src="imgs/student.jpg" class="img-circle " alt="you" />
+				<div id="name"> Thaddäus Grünert </div>
+				<br />
+				<div id="logout"> <a href="#">Logout</a> </div>
+			</div> 
+		</div>
+
+		<div id="menu">
+			<ul class="list-group">
+			  <li class="list-group-item">Account</li>
+			  <li class="list-group-item">Home</li>
+			  <li class="list-group-item-selected">Membership</li>
+			  <li class="list-group-item">Preferences</li>
+			  <li class="list-group-item">Profile</li>
+			  <li class="list-group-item">Resources</li>
+			  <li class="list-group-item">Schedule</li>
+			  <li class="list-group-item">Worksite Setup</li>
+			  
+			  <li class="list-group-item">Help</li>
+			</ul>
+		</div>
+
+		<div id="content">
+			<div id="sub-header">
+				<div id="breadcrumb">
+					<ol>
+						<li><a href="#">My workspace</a> > Modulbuchung</li>
+						<li class="active">  </li>
+					<ol>
+				</div>
+			</div>
+			
+			<div id="search-and-infos">
+					 <i class="glyphicon glyphicon-search"></i>
+					<input id="search" type="text" class="form-control" placeholder="Search">
+					<a href="#" title="Bucht die Lehrveranstaltungen, die gemäß Studienordnung vorgesehen sind" class="myButton">Standardbuchung</a>
+			
+					<div id="search-suggestions" class="display-hidden"><ul></ul></div>
+					
+				</div>
+			<div id="heading">
+				<ol class="heading">
+					<li class="active"> Modulbuchung </li>
+					
+				<ol>
+			</div>
+				
+			<div id="lp">
+				<ol class="lp">
+					<li class="active"> Aktuell gebuchte LP: 10</li>
+					<li class="active"> Erworbene LP: 20 </li>
+					
+				<ol>
+				
+			</div>
+			
+			<div id="modules-table">
+				<table id="modules">
+					<tbody>
+						<tr>
+							<!-- <td>1. Sem</td> -->
+							<td>
+								<div class="module label">Semester 1</div>
+							</td>
+							<td>
+								<div class="module done">Alp 1</div>
+							</td>
+							<td rowspan="2">
+								<div class="module doing">TI</div>
+							</td>
+							<td></td>
+							<td>
+								<div class="module done">MafI 1</div>
+							</td>
+							<td></td>
+							<td></td>
+							<td>
+								<div class="module todo">ABV</div>
+							</td>
+						</tr>
+						<tr>
+							<!-- <td>2. Sem</td> -->
+							<td>
+								<div class="module label">Semester 2</div>
+							</td>
+							<td>
+								<div class="module todo">Alp 2</div>
+							</td>
+							<td>
+								<div class="module todo">GTI</div>
+							</td>
+							<td>
+								<div class="module todo" data-module-id="1">MafI 2</div>
+							</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<!-- <td>3. Sem</td> -->
+							<td>
+								<div class="module label">Semester 3</div>
+							</td>
+							<td>
+								<div class="module disabled">Alp 3</div>
+							</td>
+							<td></td>
+							<td>
+								<div class="module disabled">Auws. d. Inf.</div>
+							</td>
+							<td>
+								<div class="module disabled">MafI 3</div>
+							</td>
+							<td></td>
+							<td></td>
+							<td>
+								<div class="module todo">ABV</div>
+							</td>
+						</tr>
+						<tr>
+							<!-- <td>4. Sem</td> -->
+							<td>
+								<div class="module label">Semester 4</div>
+							</td>
+							<td>
+								<div class="module todo">Alp 4</div>
+							</td>
+							<td></td>
+							<td>
+								<div class="module todo">DBS</div>
+							</td>
+							<td>
+								<div class="module todo">SWT</div>
+							</td>
+							<td >
+								<div class="module todo">Wiss. Arb.</div>
+							</td>
+							<td></td>
+						</tr>
+						<tr>
+							<!-- <td>6. Sem</td> -->
+							<td>
+								<div class="module label">Semester 5</div>
+							</td>
+							<td colspan="4">
+								<div class="module disabled">Vertiefungsbereich</div>
+							</td>
+							<td></td>
+							<td>
+								<div class="module disabled">Anw. Bereich</div>
+							</td>
+							<td>
+								<div class="module disabled">Berufs. Prat.</div>
+							</td>
+						</tr>
+						<tr>
+							<!-- <td>7. Sem</td> -->
+							<td>
+								<div class="module label">Semester 6</div>
+							</td>
+							<td colspan="4">
+								<div class="module todo">Vertiefungsbereich</div>
+							</td>
+							<td>
+								<div class="module todo">Bachelorarb.</div>
+							</td>
+							<td>
+								<div class="module todo">Anw. Bereich</div>
+							</td>
+							<td>
+								<div class="module todo">SWP</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			
+
+
+				<div id="courses-popup" class="display-hidden"> 
+					<div id="courses-popup-content">
+						<div id="courses-list">
+							<div class="list-group-item course-option" data-course-id="1">Mathematik für Informatiker 2: Lineare Algebra</div>
+							<div class="list-group-item course-option" data-course-id="2">Lineare Algebra</div>
+							<div class="list-group-item course-option" data-course-id="3">Lineare Algebra für Lehramt</div>
+						</div>
+
+						<div class="course-description display-hidden list-group">
+							<div class="list-group-item" id="buddy-list">
+								<img src="imgs/asdf1.jpg" alt="buddy" class="img-circle" />
+								<img src="imgs/asdf1.jpg" alt="buddy" class="img-circle" />
+								<img src="imgs/asdf1.jpg" alt="buddy" class="img-circle" />
+								<img src="imgs/asdf1.jpg" alt="buddy" class="img-circle" />
+								<img src="imgs/asdf1.jpg" alt="buddy" class="img-circle" />
+							</div>
+	
+							<div class="list-group-item">
+								<label>Dozent</label>
+								<span id="docent"></span>
+							</div>
+							<div class="list-group-item">
+								<label>Ort</label>
+								<span id="place"></span>
+							</div>
+							<div class="list-group-item">
+								<label>Leistungspunkte</label>
+								<span id="credits"></span>
+							</div>
+							<div class="list-group-item">
+								<label>Inhalt</label>
+								<span id="description"></span>
+							</div>
+						</div>
+
+						<div class="buttons">
+							<input id="close" class="btn btn-default" type="button" value="Abbrechen"/> 
+							<input id="confirm" class="btn btn-success" type="button" value="Bestätigen"/> 
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="js/jquery-1.11.3.min.js"></script>
+		<script src="css/bootstrap-3.3.4-dist/js/bootstrap.min.js"></script>
+		<script src="js/js.js"></script>
+		
+		<script>
+			URSULA = {};
+			URSULA.search = new Search();
+			URSULA.coursesPopup = new CoursesPopup();
+		</script>
+
+</body>
+</html>

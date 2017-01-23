@@ -1,0 +1,78 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{ngerman}
+\usepackage{graphics}
+ 
+\title{User-Centered Design\\~\\Homework 7\\ \small{N. Lehmann}}
+\date{08.04.2015}
+
+
+\begin{document}
+
+\section{Heuristische Evaluation \textit{(Einzelabgabe)}}
+
+\subsection{Antizipation}
+
+Im Suchfeld rechts oben wird bereits eine Autovervollständigung genutzt, die die passenden Module vorschlägt. Man könnte die Suche dadurch verbessern, in dem man auch Module in die Vorschlagsliste aufnimmt, die mit dem Suchbegriff assoziiert werden können.
+
+\subsection{Farbenblindheit}
+
+Die verwendeten Farben widersprechen der Heuristik für Farbenblindheit. Wir verwenden die Farben rot, gelb und grün als Ampelsystem. Diese Auswahl wurde allerdings bewusst getroffen.
+
+\subsection{Autonomie}
+
+Wir lassen dem Nutzer bestimmte Freiheiten, allerdings nur in dem Rahmen, der für den Nutzer sinnvoll ist. Er kann zum Beispiel nur diejenigen Module wählen, die in dem bestimmten Semester auch angeboten werden. Nicht wählbare Module werden ausgegraut.
+
+\subsection{Konsistenz}
+
+Wir verwenden das Corporate Design der Freien Universität. Die jeweiligen Screens sind vereinheitlicht. Die Programmierung erfolgt mit Wicket und lässt dem Entwickler trotzdem genug Freiheit.
+
+\subsection{Standartwerte}
+
+Man könnte einen Knopf anbieten, der eine automatisierte Modulbuchung gemäß Regelstudienplan umsetzt (pro Semester in dem sich der Studierende befindet). Da aus den Interviews der Wunsch nach einer individuellen Modulbuchung hervorging, sollte diese automatische Buchung ein zusätzliches Feature sein.
+
+\subsection{Fit's Law}
+
+Wurde berücksichtigt. An Stelle eines Home Buttons haben wir den My Workspace-Button. Der Abbrechen-Button ist immer an der gleichen Stelle. Wir haben allerdings kein X Knopf rechts oben in Kontextfenstern. Das war allerdings eine bewusste Entscheidung.
+
+\subsection{Effizenz des Nutzers}
+
+Es wurde bereits versucht, die Modulbuchung mit möglichst wenigen Arbeitsschritten umzusetzen. Die Anzahl der möglichen Funktionalitäten ist auf das wesentliche beschränkt.
+
+\subsection{Erforschbares Interface}
+
+Die Arbeitsschritte und Oberflächenkomponenten wurden auf das wesentliche reduziert (weniger ist mehr) und man kann einen Vorgang jederzeit abbrechen. Es gibt keine Shortcuts.
+
+\subsection{Lernbarkeit}
+
+Bei der Verarbeitung der Daten wird dem Nutzer angezeigt, welcher Arbeitsschritt momentan ausgeführt wird.
+
+\subsection{Metaphern}
+
+Die Suche wird durch eine Lupe repräsentiert.
+
+\subsection{Lesbarkeit}
+
+Es wird eine serifenfreie Schrift verwendet und Überschriften werden größer und dick gedruckt.
+
+\subsection{Trackstate}
+
+Da der Nutzer eingeloggt ist stehen uns alle Profilinformationen des Nutzers zur Verfügung.
+
+\section{Heuristische Evaluation \textit{(Gruppenabgabe)}}
+
+\textit{Gruppe: B. Swiers, N. Lehmann, T. Bento}\\
+\\
+Die folgende Auflistung ist nach der Wichtigkeit geordnet:\\
+\textit{(sehr wichtig oben bis weniger wichtig unten)}
+\begin{enumerate}
+\item Anzeige von assoziierten Begriffen bei Suchergebnissen (Antizipation)
+\item Modulübersicht muss gut lesbar dargestellt werden (Lesbarkeit)
+\item Ampelprinzip als Anzeige für den Status eines Moduls (Farbenblindheit)
+\item Einbinden von Shortcuts für schnelle Ausführung von Arbeitsschritten für erfahrene Benutzer (Erforschbares Interface)
+\item Knopf \textit{automatische Buchung}, für die Modulbuchung gemäß Regelstudienplan (Standardwerte) 
+\end{enumerate}
+  
+
+\end{document}
